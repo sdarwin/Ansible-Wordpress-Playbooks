@@ -20,7 +20,7 @@ wordpress_htusers:
 
 wordpress_initial_ssh_user: ansible
 
-wordpress_enable_ssl: True
+wordpress_enable_ssl: False
 wordpress_ssl_cert: /etc/ssl/certs/ssl-cert-snakeoil.pem
 wordpress_ssl_key: /etc/ssl/private/ssl-cert-snakeoil.key
 wordpress_auth_website: False
