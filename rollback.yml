@@ -1,0 +1,5 @@
+---
+- hosts: tag_wpappservers
+  remote_user: wpdeploy
+  roles:
+  - { role: ansistrano.rollback }

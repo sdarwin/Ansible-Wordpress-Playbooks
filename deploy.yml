@@ -1,6 +1,9 @@
 ---
-- hosts: tag_wpappservers
+- hosts: tag_role_wpappservers
   remote_user: wpdeploy
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
   roles:
-    - { role: 'sdarwin.wordpress', run_wpapp: true }
+    #- { role: 'sdarwin.wordpress', run_wpapp: true }
+    - { role: ansistrano.deploy }
  
