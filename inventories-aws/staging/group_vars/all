@@ -34,7 +34,7 @@ wordpress_database_root_password: password123
 wordpress_database_username: wpdeploy
 wordpress_database_password: password123
 wordpress_database_name: wordpress
-wordpress_database_host: 172.31.3.132
+wordpress_database_host: 172.31.5.168
 wordpress_app_env: staging
 #"wordpress_ignore_s3_errors: True" assumes you haven't configured S3 yet, and so it ignores errors about downloading an sql file.
 #Set this to False once S3 is working, because you don't really want to be ignoring errors.
