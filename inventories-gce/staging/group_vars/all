@@ -50,6 +50,8 @@ wordpress_mysql_cnf_config:
   innodb_buffer_pool_size: 1000M
   bind_address: 0.0.0.0
 
+wordpress_create_shared: true
+
 # Path where the code to deploy is
 ansistrano_deploy_from: "{{ playbook_dir }}"
 
